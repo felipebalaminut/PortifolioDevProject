@@ -1,0 +1,15 @@
+.text-xl {
+  font: var(--h1);
+}
+
+.text-lg {
+  font: var(--h2)
+}
+
+.text-sub {
+  font: var(--h4);
+}
+
+.text-phr {
+  font: var(--text-sm);
+}
