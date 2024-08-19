@@ -1,15 +1,32 @@
-.text-xl {
+.title-xl {
   font: var(--h1);
 }
 
-.text-lg {
+.title-lg {
   font: var(--h2)
+}
+
+.title-sm {
+  font: var(--h3);
 }
 
 .text-sub {
   font: var(--h4);
 }
 
-.text-phr {
+.text-sm {
   font: var(--text-sm);
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid-flow-col {
+  grid-auto-flow: column;
 }

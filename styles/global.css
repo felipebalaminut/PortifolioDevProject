@@ -23,7 +23,7 @@
   --font-family-asap: "Asap", sans-serif;
   --h1: 700 56px/120% var(--font-family-asap);
   --h2: 700 24px/120% var(--font-family-asap);
-  --title-sm: 700 16px/120% var(--font-family-asap);
+  --h3: 700 16px/120% var(--font-family-asap);
 
   /* font Inconsolata */
   --font-family-inconsolata: "Inconsolata", monospace;
@@ -38,6 +38,7 @@
 body {
   color: var(--color-base-gray500);
   font: var(--text-sm);
+  background-color: var(--color-base-gray200);
 }
 
 img {
