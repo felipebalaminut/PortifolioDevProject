@@ -18,9 +18,21 @@
   font: var(--text-sm);
 }
 
+.text-md {
+  font: var(--text-md)
+}
+
+.flex {
+  display: flex;
+}
+
 .flex-col {
   display: flex;
   flex-direction: column;
+}
+
+.gap-16 {
+  gap: 16px;
 }
 
 .grid {
